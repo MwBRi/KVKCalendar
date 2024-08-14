@@ -33,6 +33,8 @@ public struct Style {
     /// Linux timezone identifiers
     public var timeZoneIds: [String] = ["America/New_York", "Europe/London", "Europe/Moscow", "Asia/Tokyo"]
     public var selectedTimeZones: [TimeZone]
+    /// Add ScrollWeekViewHeader Layout modifier
+    public var isWeekHeaderVertical: Bool = false
     
     public init(configureAsDefaultCalendar: Bool = true) {
         selectedTimeZones = [timezone]

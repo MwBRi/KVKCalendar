@@ -21,7 +21,7 @@ final class DayPadCell: DayCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        if (style.isWeekHeaderVertical) {
+        if (padStyle.isWeekHeaderVertical) {
             var titleFrame = frame
             titleFrame.origin.x = 0
             titleFrame.origin.y = 0
